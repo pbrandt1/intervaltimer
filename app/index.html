@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Timer</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link rel="stylesheet" href="/css/normalize.css" />
+<link rel="stylesheet" href="/css/skeleton.css" />
+<link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Workout Interval Timer</h1>
+    <p>Input your workout time in minutes, we take care of the rest</p>
+    <div class="row">
+      <input type="number" id="time" value="30"/>
+      <div id='display'></div>
+      <button id="start">START</button>
+      <button id="reset">RESET</button>
+    </div>
+  </div>
+  <script src="/zepto.min.js"></script>
+  <script src="/rx.lite.min.js"></script>
+  <script src="/timer.js"></script>
+  <script src="/howler.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
